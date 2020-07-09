@@ -1,0 +1,38 @@
+.gaugeContainer {
+  height: 50%;
+  width: 50%;
+}
+
+.chartContainer {
+  height: 50%;
+  width: 50%;
+}
+
+.gaugeContainer p,
+.chartContainer p {
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 90%;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+  }
+  .gaugeContainer {
+    height: 75%;
+    width: 75%;
+  }
+  .chartContainer {
+    height: 75%;
+    width: 75%;
+  }
+}
