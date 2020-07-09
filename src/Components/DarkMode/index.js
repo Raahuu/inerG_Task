@@ -119,6 +119,7 @@ const DarkMode = () => {
         <GaugeChart
           id="gauge-chart2"
           nrOfLevels={20}
+          formatTextValue={() => `Rs.${exchangeRate}`}
           percent={exchangeRate}
           textColor="#fff"
         />

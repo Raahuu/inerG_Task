@@ -1,5 +1,7 @@
 import Axios from "axios";
 
+// If key gets expired try to create a new one at https://fxmarketapi.com/
+
 export const fetchCurrencyRate = () => {
   const promise = new Promise((resolve, reject) => {
     Axios.get(
